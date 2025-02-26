@@ -17,7 +17,7 @@ class BankAccount:
         """
         Свойство с декоратором @property, которое возвращает текущий баланс счета.
 
-        :return: Текущий баланс.
+        :return: float: Текущий баланс.
         """
         return self._balance
 
