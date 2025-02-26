@@ -21,15 +21,15 @@
 ## Примеры использования
 
 Класс `BankAccount` имеет встроенные тесты с использованием `doctest`, которые предназначены для проверки его функциональности. Эти тесты описывают, как использовать класс и какие результаты ожидать. Вы можете протестировать класс, запустив файл `bank_account.py`. Примеры тестов: python
->>> account = BankAccount('123456789', 1000)
->>> account.deposit(500)
->>> account.balance
+- account = BankAccount('123456789', 1000)
+- account.deposit(500)
+- account.balance
 1500
->>> account.withdraw(300)
->>> account.balance
+- account.withdraw(300)
+- account.balance
 1200
->>> account.calculate_interest(0.3)  # 0.3% от 1000
->>> account.balance
+- account.calculate_interest(0.3)  # 0.3% от 1000
+- account.balance
 1003.0
 
 ## Тестирование
